@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   private readonly  views = ['recipes, shoppingList']
-  showView = this.views[1];
+  showView = this.views[0];
 
   changeShowView(view: string) {
     this.showView = view;
