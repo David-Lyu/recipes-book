@@ -5,8 +5,7 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <app-recipes *ngIf="showView === getViews()[0]"></app-recipes>
-      <app-shopping-list *ngIf="showView === getViews()[1]"></app-shopping-list>
+      <router-outlet></router-outlet>
     </div>
   </div>
 </div>
