@@ -6,14 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  private readonly  views = ['recipes, shoppingList']
-  showView = this.views[0];
-
-  changeShowView(view: string) {
-    this.showView = view;
-  }
-
-  getViews() {
-    return [...this.views];
-  }
 }
